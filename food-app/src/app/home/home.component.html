@@ -1,0 +1,279 @@
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Chic-chic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" [routerLink]="['/home']">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/aboutus']">about us</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" [routerLink]="['contactus']">Contact us</a>
+              </li> -->
+             
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn " type="submit">Search</button>
+          </form>
+          <select id="select" name="">
+            <option value="volvo">snacks</option>
+            <option value="saab">krevetes</option>
+            <option value="fiat">sause</option>
+            <option value="audi">fried onions</option>
+            <option value="audi">popcorn</option>
+            <option value="audi">cheese sticks</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+  </header>
+                           
+  
+                                   
+  <main>
+  
+  
+  
+    
+    
+  
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      Indicators
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      Wrapper for slides
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../assets/newproducts.jpg" alt="Los Angeles">
+        </div>
+    
+        <div class="item">
+          <img src="../assets/newproducts.jpg" alt="Chicago">
+        </div>
+    
+        <div class="item">
+          <img src="../assets/newproducts.jpg" alt="New York">
+        </div>
+      </div>
+    
+      Left and right controls
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> -->
+  
+    
+  
+  
+  
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+     
+    
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+  
+          <drag-scroll >
+            
+            <img  class="slider" drag-scroll-item src="https://images.unsplash.com/photo-1562967914-b2176ee4f468?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" />
+            <img  class="slider" drag-scroll-item src="../assets/klipartz.com.png" />
+            <img   class="slider" drag-scroll-item src="https://images.unsplash.com/photo-1579888944880-d98341245702?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" />
+          </drag-scroll>
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="white"/></svg>
+         
+          -->
+  
+  
+          <!-- <img src="https://images.unsplash.com/photo-1613591630496-fdfb1d723c19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="thumbnail" class="img-thumbnail"
+          style="width: 200px"> -->
+  
+          <!-- <img src="https://images.unsplash.com/photo-1605929650659-53b28468283d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="thumbnail" class="img-thumbnail"
+          style="width: 200px"> -->
+  
+  
+  
+  
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Chic-chic</h1>
+              <p>The most distinctive and crunchy chicken venture
+              </p>
+              <!-- <p><a class="btn  btn-lg  " href="#">Sign up today</a></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+  
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+  
+  
+   
+    <div class="container marketing">
+  
+     
+      <div class="row">
+        <div class="col-lg-4">
+          
+  
+  
+          <div class="ring">
+          
+          <img   class="rounded" src="../assets/Daco_4230995.png" alt="">
+          </div>
+          
+          <h2>Chicken nuggets</h2>
+          <p>Crispy chicken breast </p>
+          <p><a class="btn2 " [routerLink]="['/viewnuggets']">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+  
+          <div  class="ring">
+         <img  class="burger" src="../assets/Chicken-Nuggets-Burger.png" alt="">
+        </div>
+          <h2>Chicken burgers</h2>
+          <p>Crispy chicken burgers </p>
+          <p><a class="btn2 "[routerLink]="['/viewburgers']">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+   -->
+        <div  class="ring">
+         <img class="rounded" src="../assets/klipartz.com.png" alt="">
+        </div>
+          <h2>New Products</h2>
+          <p>Crispy chicken wings with chilli souce </p>
+          <p><a class="btn2 "[routerLink]="['/viewnewproducts']">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Our bestselers<span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  width="500" height="500"   xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <img class="offered" src="../assets/bestdeler.jpg" alt="">
+        <button class="btn" >click here</button>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">snacks.<span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+          <img  class="offered" src="../assets/onion.jpg" alt="">
+          <button class="btn">click here</button>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">family box. <span class="text-muted">Everyone is satisfied</span></h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+          <img  class="offered" src="../assets/familybox.jpg" alt="">
+          <button class="btn" >click here</button>
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <!-- /END THE FEATURETTES -->
+  
+    </div><!-- /.container -->
+  
+  
+    <!-- FOOTER -->
+    <footer class="container-footer">
+     
+  
+      <p class="phone">&copy;  Chi-chic   Call: 555 344 433   &middot;</p>
+  <div class="fb-insta">
+         <p > </p>  &middot;  <a href="#">Privacy</a> 
+  
+        &middot; <a href="#">Terms</a> <a href="#"> <br>
+  
+         facebook</a>
+          <img class="fb-icon" src="../assets/fb.png" alt="">  <br> 
+          <a href="#"> instagram</a>  
+          <img class="insta-icon" src="../assets/instagram-blue-icon-58.png" alt=""> <br>
+  
+         <p class="float-end"><a href="#">Back to top</a></p>
+        </div>
+    </footer>
+  </main>
+  
+  
+      <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  
+    
+     
+  <!-- <router-outlet></router-outlet> -->
