@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DragScrollModule } from 'ngx-drag-scroll';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
@@ -15,6 +14,14 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ViewnuggetsComponent } from './viewnuggets/viewnuggets.component';
 import { ViewburgersComponent } from './viewburgers/viewburgers.component';
 import { ViewnewproductsComponent } from './viewnewproducts/viewnewproducts.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SliderComponent } from './slider/slider.component';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { SnacksComponent } from './snacks/snacks.component';
+import { BestselersComponent } from './bestselers/bestselers.component';
+import { CarticonComponent } from './carticon/carticon.component';
+import { FamilyboxComponent } from './familybox/familybox.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +31,12 @@ import { ViewnewproductsComponent } from './viewnewproducts/viewnewproducts.comp
     ContactusComponent,
     ViewnuggetsComponent,
     ViewburgersComponent,
-    ViewnewproductsComponent
+    ViewnewproductsComponent,
+    SliderComponent,
+    SnacksComponent,
+    BestselersComponent,
+    CarticonComponent,
+    FamilyboxComponent
   ],
   imports: [
     DragScrollModule,
@@ -32,9 +44,10 @@ import { ViewnewproductsComponent } from './viewnewproducts/viewnewproducts.comp
     AppRoutingModule,
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     StoreModule.forRoot({} ,{}),
+    NgbModule,
    
   ],
-  providers: [],
+  providers: [NgbCarouselConfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

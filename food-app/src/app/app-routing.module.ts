@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { BestselersComponent } from './bestselers/bestselers.component';
+import { CarticonComponent } from './carticon/carticon.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { FamilyboxComponent } from './familybox/familybox.component';
 import { HomeComponent } from './home/home.component';
+import { SnacksComponent } from './snacks/snacks.component';
 import { ViewburgersComponent } from './viewburgers/viewburgers.component';
 import { ViewnewproductsComponent } from './viewnewproducts/viewnewproducts.component';
 import { ViewnuggetsComponent } from './viewnuggets/viewnuggets.component';
@@ -37,6 +41,22 @@ const routes: Routes = [
     {
       path: 'viewnewproducts',
       component: ViewnewproductsComponent,
+    },
+    {
+      path: 'snacks',
+      component: SnacksComponent,
+    },
+    {
+      path: 'bestselers',
+      component: BestselersComponent,
+    },
+    {
+      path: 'carticon',
+      component: CarticonComponent,
+    },
+    {
+      path: 'familybox',
+      component: FamilyboxComponent,
     },
 
   

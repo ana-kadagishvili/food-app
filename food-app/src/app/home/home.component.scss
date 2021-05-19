@@ -1,3 +1,65 @@
+
+.carticon {
+  width: 50px;
+  height: 45px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.logo{
+  width: 20px;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+}
+
+.first-ornament {
+  margin: auto;
+  width: 35%;
+  position: relative;
+  top: 15px;
+  height: 240px;
+  img {
+      width: 100%;
+      height: 100%;
+  }
+}
+
+.picsum-img-wrapper{
+  opacity: 80%;
+  height: 95vh;
+
+  
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important; 
+  
+}
+
+.carousel-caption h5 {
+  font-family: 'ArchyEDT-Thin', sans-serif;
+  color: #293241;
+  font-size: 30px;
+}
+
+.bstyle{
+  color: #81b29a;
+  border-radius: 40px;
+  border: none;
+  padding: 32px;
+  width: 550px;
+  top: 50%;
+  opacity: 70%;
+}
+
+.bstyle a {
+  text-decoration: none;
+}
+
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -54,11 +116,13 @@
     width: 150px;
     height: 110px;
    margin-top: 30px;
+   object-fit: contain;
    
   }
   .burger {
     width: 200px;
     height: 140px;
+    object-fit: contain;
    
   }
  
@@ -66,8 +130,12 @@
   .offered {
     width: 450px;
     height: 350px;
+    object-fit: contain;
    
 }
+ .btn {
+   color: lightblue;
+ }
  
   
   
@@ -95,6 +163,7 @@
     left: 0;
     min-width: 100%;
     height: 32rem;
+    object-fit:cover;
    
   }
   .carousel-control-next {
@@ -191,16 +260,19 @@
 .fb-insta {
  margin-top: 30px;
  margin-left: 800px;
+ object-fit: contain;
  
 }
 .fb-icon {
   height: 40px;
   width: 40px;
   margin-left: 20px;
+  object-fit: contain;
 }
 .insta-icon {
   height: 30px;
   width: 30px;
+  object-fit: contain;
   margin-left: 20px;
 }
 //  .phone {
@@ -215,3 +287,39 @@
 //   display:flex ;
   
 // }
+
+
+.footer-main {
+  background-color: #24293e;
+  .container {
+    padding-top: 25px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    .textwidget {
+      color: #FFFFFF;
+      img {
+        width: 47%;
+      }
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      h3, p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #faa227;
+      }
+      ul {
+        padding-left: 0px !important;
+        li {
+          list-style-type: none;
+          a {
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
