@@ -21,6 +21,7 @@ import { SnacksComponent } from './snacks/snacks.component';
 import { BestselersComponent } from './bestselers/bestselers.component';
 import { CarticonComponent } from './carticon/carticon.component';
 import { FamilyboxComponent } from './familybox/familybox.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { FamilyboxComponent } from './familybox/familybox.component';
     SnacksComponent,
     BestselersComponent,
     CarticonComponent,
-    FamilyboxComponent
+    FamilyboxComponent,
+    LoginComponent
   ],
   imports: [
     DragScrollModule,

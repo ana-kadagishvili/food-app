@@ -6,6 +6,7 @@ import { CarticonComponent } from './carticon/carticon.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FamilyboxComponent } from './familybox/familybox.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { SnacksComponent } from './snacks/snacks.component';
 import { ViewburgersComponent } from './viewburgers/viewburgers.component';
 import { ViewnewproductsComponent } from './viewnewproducts/viewnewproducts.component';
@@ -58,6 +59,10 @@ const routes: Routes = [
       path: 'familybox',
       component: FamilyboxComponent,
     },
+    {
+    path: 'login',
+    component: LoginComponent,
+  },
 
   
 ];
